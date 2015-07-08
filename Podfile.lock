@@ -1,23 +1,23 @@
 PODS:
-  - AFNetworking (2.3.1):
-    - AFNetworking/NSURLConnection (= 2.3.1)
-    - AFNetworking/NSURLSession (= 2.3.1)
-    - AFNetworking/Reachability (= 2.3.1)
-    - AFNetworking/Security (= 2.3.1)
-    - AFNetworking/Serialization (= 2.3.1)
-    - AFNetworking/UIKit (= 2.3.1)
-  - AFNetworking/NSURLConnection (2.3.1):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.3.1):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.3.1)
-  - AFNetworking/Security (2.3.1)
-  - AFNetworking/Serialization (2.3.1)
-  - AFNetworking/UIKit (2.3.1):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - MMKeychain (1.0)
@@ -29,7 +29,7 @@ DEPENDENCIES:
   - SVProgressHUD (~> 1.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   MMKeychain: c16b187c2f30995036b619c015a8fb978b73f849
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
