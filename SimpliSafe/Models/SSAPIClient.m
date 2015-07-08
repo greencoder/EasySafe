@@ -56,7 +56,7 @@
         NSDictionary *responseDict = (NSDictionary *)responseObject;
 
         // Check the status code. "success" doesn't mean that it returned a 200
-        if (!httpResponse.statusCode == 200)
+        if (httpResponse.statusCode != 200)
         {
             // Send back a nil response on the main thread
             dispatch_async(dispatch_get_main_queue(), ^{
