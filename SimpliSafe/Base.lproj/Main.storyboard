@@ -224,7 +224,7 @@
         <scene sceneID="9No-lA-itH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Odd-se-FSf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dashboard" image="dashboard_icon.png" id="ZiE-Eg-wIy"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" id="ZiE-Eg-wIy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="clw-vF-zqV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -737,7 +737,6 @@
         <image name="btn_unlocked_blue.png" width="65" height="65"/>
         <image name="btn_unlocked_gray.png" width="65" height="65"/>
         <image name="calendar.png" width="32" height="32"/>
-        <image name="dashboard_icon.png" width="30" height="30"/>
         <image name="fire.png" width="32" height="32"/>
         <image name="gasmask.png" width="32" height="32"/>
         <image name="house_icon.png" width="22" height="22"/>
