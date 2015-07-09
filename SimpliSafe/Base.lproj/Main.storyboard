@@ -76,9 +76,10 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                                         <connections>
                                             <action selector="textFieldsChanged:" destination="TZI-zu-ZsB" eventType="editingChanged" id="fKX-jn-cn6"/>
+                                            <action selector="usernameNextButtonPressed:" destination="TZI-zu-ZsB" eventType="editingDidEndOnExit" id="SRM-3q-O9U"/>
                                             <outlet property="delegate" destination="TZI-zu-ZsB" id="kuj-wm-1fA"/>
                                         </connections>
                                     </textField>
@@ -95,7 +96,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                                         <connections>
                                             <action selector="textFieldsChanged:" destination="TZI-zu-ZsB" eventType="valueChanged" id="ef2-8J-w7S"/>
                                             <action selector="textFieldsChanged:" destination="TZI-zu-ZsB" eventType="editingChanged" id="qLg-wK-xcA"/>
