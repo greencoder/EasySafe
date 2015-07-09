@@ -57,18 +57,23 @@
 //                                                userInfo:nil
 //                                                 repeats:YES];
     
+}
+
+- (void)didMoveToParentViewController:(UIViewController *)parent
+{
+    [super didMoveToParentViewController:parent];
+    
     SSUserManager *userManager = [SSUserManager sharedManager];
     
     // If there is no session token, force the login screen. If there
     // is a session token, try to validate it
-
+    
     if (!userManager.lastSessionToken) {
         [self showLoginScreen:nil];
     }
     else if (!userManager.user) {
         [self validateLogin];
     }
-
 }
 
 - (void)checkReachability
