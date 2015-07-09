@@ -31,7 +31,7 @@
     [super viewDidLoad];
     
     // Set the background and button colors
-    self.loginButton.backgroundColor = kSSPaleBlueColor;
+    [self.loginButton setTitleColor:kSSPaleBlueColor forState:UIControlStateNormal];
     self.view.backgroundColor = kSSGrayBGColor;
     
     // Clear any session token that might exist
