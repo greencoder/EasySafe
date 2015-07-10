@@ -92,11 +92,6 @@
 		2BC189E5197A19730095999F /* EventsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewCell.m; sourceTree = "<group>"; };
 		2BC189E7197A2F1C0095999F /* MFMailComposeViewController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewController+StatusBar.h"; sourceTree = "<group>"; };
 		2BC189E8197A2F1C0095999F /* MFMailComposeViewController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMailComposeViewController+StatusBar.m"; sourceTree = "<group>"; };
-		2BD90DF21974B9E900633FBE /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		2BD90DF31974B9E900633FBE /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
-		2BD90DF41974B9E900633FBE /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
-		2BD90E051974CEBE00633FBE /* Launch_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch_640_960.png; sourceTree = "<group>"; };
-		2BD90E061974CEBE00633FBE /* Launch_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch_640_1136.png; sourceTree = "<group>"; };
 		2BD90E141974D50300633FBE /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		2BD90E161974E32000633FBE /* house_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house_icon@2x.png"; sourceTree = "<group>"; };
 		2BE183AC1971A5DA00EE9DD7 /* SimpliSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,18 +201,6 @@
 				2BC189E5197A19730095999F /* EventsTableViewCell.m */,
 			);
 			path = "Table View Cells";
-			sourceTree = "<group>";
-		};
-		2BD90DF11974B9E900633FBE /* Launch Screens */ = {
-			isa = PBXGroup;
-			children = (
-				2BD90E051974CEBE00633FBE /* Launch_640_960.png */,
-				2BD90E061974CEBE00633FBE /* Launch_640_1136.png */,
-				2BD90DF21974B9E900633FBE /* Default-568h@2x~iphone.png */,
-				2BD90DF31974B9E900633FBE /* Default@2x~iphone.png */,
-				2BD90DF41974B9E900633FBE /* Default~iphone.png */,
-			);
-			path = "Launch Screens";
 			sourceTree = "<group>";
 		};
 		2BD90E131974D50300633FBE /* Nav Icons */ = {
@@ -361,7 +344,6 @@
 				2B2EB1F11975A10C0093303D /* Cell Icons */,
 				2B2EB1DC19758D0A0093303D /* Buttons */,
 				2BD90E131974D50300633FBE /* Nav Icons */,
-				2BD90DF11974B9E900633FBE /* Launch Screens */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
