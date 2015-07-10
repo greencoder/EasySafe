@@ -25,14 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // Override the back button to have no title on it
-    UIBarButtonItem *btnBack = [[UIBarButtonItem alloc] initWithTitle:@""
-                                                                style:UIBarButtonItemStyleBordered
-                                                               target:self
-                                                               action:nil];
-    self.navigationController.navigationBar.topItem.backBarButtonItem = btnBack;
-
+    
     // Assign the account number to the label
     self.accountNumberLabel.text = self.user.accountNumber;
 }

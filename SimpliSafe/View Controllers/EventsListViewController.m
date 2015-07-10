@@ -27,13 +27,6 @@
 {
     [super viewDidLoad];
     
-    // Only show an arrow for a back button
-    UIBarButtonItem *btnBack = [[UIBarButtonItem alloc] initWithTitle:@""
-                                                                style:UIBarButtonItemStyleBordered
-                                                               target:self
-                                                               action:nil];
-    self.navigationController.navigationBar.topItem.backBarButtonItem = btnBack;
-
     // Load the events data (We use the same method call when someone
     // taps the refresh button in the nav bar
     [self loadData];
