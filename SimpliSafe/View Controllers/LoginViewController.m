@@ -12,7 +12,7 @@
 #import "SSAPIClient.h"
 #import "SSUser.h"
 
-#import "SVProgresshud.h"
+#import "SVProgressHUD.h"
 
 @interface LoginViewController () <UITextFieldDelegate>
 

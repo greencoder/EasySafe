@@ -12,7 +12,7 @@
 #import "SSUser.h"
 #import "SSAPIClient.h"
 
-#import "SVProgressHud.h"
+#import "SVProgressHUD.h"
 #import "EventsTableViewCell.h"
 
 @interface EventsListViewController ()
