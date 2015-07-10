@@ -12,7 +12,7 @@
 #import "SSAPIClient.h"
 #import "SSUser.h"
 
-#import "SVProgresshud.h"
+#import "SVProgressHUD.h"
 
 @interface LoginViewController () <UITextFieldDelegate>
 
@@ -31,7 +31,7 @@
     [super viewDidLoad];
     
     // Set the background and button colors
-    self.loginButton.backgroundColor = kSSPaleBlueColor;
+    [self.loginButton setTitleColor:kSSPaleBlueColor forState:UIControlStateNormal];
     self.view.backgroundColor = kSSGrayBGColor;
     
     // Clear any session token that might exist
@@ -51,6 +51,9 @@
     // The login button should only be enabled when the
     // username and password text fields have values
     self.loginButton.enabled = [self loginButtonShouldBeEnabled];
+    
+    // Add a single tap gesture recognizer to this view controller's view so that taps not handled by any login field or button will close the keyboard
+    [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(closeKeyboard)]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +62,17 @@
 }
 
 #pragma mark User Interface Methods
+
+- (void)closeKeyboard
+{
+    [self.usernameField resignFirstResponder];
+    [self.passwordField resignFirstResponder];
+}
+
+- (IBAction)usernameNextButtonPressed:(id)sender
+{
+    [self.passwordField becomeFirstResponder];
+}
 
 - (IBAction)clearButtonPressed:(id)sender
 {
@@ -92,6 +106,8 @@
 
 - (IBAction)loginButtonPressed:(id)sender
 {
+    [self closeKeyboard];
+    
     SSUserManager *userManager = [SSUserManager sharedManager];
     
     NSString *username = self.usernameField.text;
@@ -163,9 +179,10 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    // Resign the responder so the keyboard will dismiss
-    // when the user taps the return button
-    [textField resignFirstResponder];
+    // When the password field's Go button is tapped, attempt to login
+    if (textField == self.passwordField) {
+        [self loginButtonPressed:textField];
+    }
     return YES;
 }
 

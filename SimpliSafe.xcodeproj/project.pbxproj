@@ -27,16 +27,6 @@
 		2B2EB2121976CA410093303D /* AlarmButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EB2111976CA410093303D /* AlarmButtonsView.m */; };
 		2BC189E6197A19730095999F /* EventsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC189E5197A19730095999F /* EventsTableViewCell.m */; };
 		2BC189E9197A2F1C0095999F /* MFMailComposeViewController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC189E8197A2F1C0095999F /* MFMailComposeViewController+StatusBar.m */; };
-		2BD90DF81974B9E900633FBE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DEF1974B9E900633FBE /* icon.png */; };
-		2BD90DF91974B9E900633FBE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DF01974B9E900633FBE /* icon@2x.png */; };
-		2BD90DFA1974B9E900633FBE /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DF21974B9E900633FBE /* Default-568h@2x~iphone.png */; };
-		2BD90DFB1974B9E900633FBE /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DF31974B9E900633FBE /* Default@2x~iphone.png */; };
-		2BD90DFC1974B9E900633FBE /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DF41974B9E900633FBE /* Default~iphone.png */; };
-		2BD90E021974BADE00633FBE /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90DFF1974BADE00633FBE /* icon_58.png */; };
-		2BD90E031974BADE00633FBE /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E001974BADE00633FBE /* icon_80.png */; };
-		2BD90E041974BADE00633FBE /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E011974BADE00633FBE /* icon_120.png */; };
-		2BD90E071974CEBE00633FBE /* Launch_640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E051974CEBE00633FBE /* Launch_640_960.png */; };
-		2BD90E081974CEBE00633FBE /* Launch_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E061974CEBE00633FBE /* Launch_640_1136.png */; };
 		2BD90E151974D50300633FBE /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E141974D50300633FBE /* location@2x.png */; };
 		2BD90E171974E32000633FBE /* house_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD90E161974E32000633FBE /* house_icon@2x.png */; };
 		2BE183B01971A5DA00EE9DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE183AF1971A5DA00EE9DD7 /* Foundation.framework */; };
@@ -60,6 +50,7 @@
 		2BE184071972F5B700EE9DD7 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE184061972F5B700EE9DD7 /* EventsListViewController.m */; };
 		2BE1840D1972F88000EE9DD7 /* SSUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1840C1972F88000EE9DD7 /* SSUserManager.m */; };
 		2BE184171974382000EE9DD7 /* LocationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE184161974382000EE9DD7 /* LocationsListViewController.m */; };
+		A754A0A21B4E22C4002D0F4D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A754A0A11B4E22C4002D0F4D /* Launch Screen.xib */; };
 		E9F25F6B2A32443199ACFE26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C717EB36F4E52A2B6940E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -101,16 +92,6 @@
 		2BC189E5197A19730095999F /* EventsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewCell.m; sourceTree = "<group>"; };
 		2BC189E7197A2F1C0095999F /* MFMailComposeViewController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewController+StatusBar.h"; sourceTree = "<group>"; };
 		2BC189E8197A2F1C0095999F /* MFMailComposeViewController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFMailComposeViewController+StatusBar.m"; sourceTree = "<group>"; };
-		2BD90DEF1974B9E900633FBE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		2BD90DF01974B9E900633FBE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		2BD90DF21974B9E900633FBE /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		2BD90DF31974B9E900633FBE /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
-		2BD90DF41974B9E900633FBE /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
-		2BD90DFF1974BADE00633FBE /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_58.png; sourceTree = "<group>"; };
-		2BD90E001974BADE00633FBE /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_80.png; sourceTree = "<group>"; };
-		2BD90E011974BADE00633FBE /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
-		2BD90E051974CEBE00633FBE /* Launch_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch_640_960.png; sourceTree = "<group>"; };
-		2BD90E061974CEBE00633FBE /* Launch_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch_640_1136.png; sourceTree = "<group>"; };
 		2BD90E141974D50300633FBE /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		2BD90E161974E32000633FBE /* house_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house_icon@2x.png"; sourceTree = "<group>"; };
 		2BE183AC1971A5DA00EE9DD7 /* SimpliSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpliSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +127,9 @@
 		2BE1840C1972F88000EE9DD7 /* SSUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUserManager.m; sourceTree = "<group>"; };
 		2BE184151974382000EE9DD7 /* LocationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsListViewController.h; sourceTree = "<group>"; };
 		2BE184161974382000EE9DD7 /* LocationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsListViewController.m; sourceTree = "<group>"; };
-		720296DB9EC24455A4DB3064 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6522AD119784415A67C7B919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A754A0A11B4E22C4002D0F4D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		BCEBE62F0AA4AC574C90D5AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C76C717EB36F4E52A2B6940E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -220,30 +203,6 @@
 			path = "Table View Cells";
 			sourceTree = "<group>";
 		};
-		2BD90DEE1974B9E900633FBE /* App Icons */ = {
-			isa = PBXGroup;
-			children = (
-				2BD90DFF1974BADE00633FBE /* icon_58.png */,
-				2BD90E001974BADE00633FBE /* icon_80.png */,
-				2BD90E011974BADE00633FBE /* icon_120.png */,
-				2BD90DEF1974B9E900633FBE /* icon.png */,
-				2BD90DF01974B9E900633FBE /* icon@2x.png */,
-			);
-			path = "App Icons";
-			sourceTree = "<group>";
-		};
-		2BD90DF11974B9E900633FBE /* Launch Screens */ = {
-			isa = PBXGroup;
-			children = (
-				2BD90E051974CEBE00633FBE /* Launch_640_960.png */,
-				2BD90E061974CEBE00633FBE /* Launch_640_1136.png */,
-				2BD90DF21974B9E900633FBE /* Default-568h@2x~iphone.png */,
-				2BD90DF31974B9E900633FBE /* Default@2x~iphone.png */,
-				2BD90DF41974B9E900633FBE /* Default~iphone.png */,
-			);
-			path = "Launch Screens";
-			sourceTree = "<group>";
-		};
 		2BD90E131974D50300633FBE /* Nav Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,7 +220,7 @@
 				2BE183D41971A5DA00EE9DD7 /* SimpliSafeTests */,
 				2BE183AE1971A5DA00EE9DD7 /* Frameworks */,
 				2BE183AD1971A5DA00EE9DD7 /* Products */,
-				720296DB9EC24455A4DB3064 /* Pods.xcconfig */,
+				BC90BB0084CAF0462E423EC2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,6 +258,7 @@
 				2BE183BE1971A5DA00EE9DD7 /* AppDelegate.h */,
 				2BE183BF1971A5DA00EE9DD7 /* AppDelegate.m */,
 				2BE183C71971A5DA00EE9DD7 /* Images.xcassets */,
+				A754A0A11B4E22C4002D0F4D /* Launch Screen.xib */,
 				2BE183B61971A5DA00EE9DD7 /* Supporting Files */,
 				2BC189E2197A15E30095999F /* Constants.h */,
 			);
@@ -384,8 +344,6 @@
 				2B2EB1F11975A10C0093303D /* Cell Icons */,
 				2B2EB1DC19758D0A0093303D /* Buttons */,
 				2BD90E131974D50300633FBE /* Nav Icons */,
-				2BD90DEE1974B9E900633FBE /* App Icons */,
-				2BD90DF11974B9E900633FBE /* Launch Screens */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -397,6 +355,15 @@
 				2BC189E8197A2F1C0095999F /* MFMailComposeViewController+StatusBar.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		BC90BB0084CAF0462E423EC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6522AD119784415A67C7B919 /* Pods.debug.xcconfig */,
+				BCEBE62F0AA4AC574C90D5AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,8 +447,6 @@
 				2B2EB1FC1975A5C60093303D /* gasmask@2x.png in Resources */,
 				2B2EB1FF1975D66D0093303D /* calendar@2x.png in Resources */,
 				2B2EB1E4197592BE0093303D /* logout@2x.png in Resources */,
-				2BD90DFA1974B9E900633FBE /* Default-568h@2x~iphone.png in Resources */,
-				2BD90DFB1974B9E900633FBE /* Default@2x~iphone.png in Resources */,
 				2BE183C81971A5DA00EE9DD7 /* Images.xcassets in Resources */,
 				2B2EB1FD1975A5C60093303D /* water@2x.png in Resources */,
 				2B2EB1F71975A4750093303D /* temperature@2x.png in Resources */,
@@ -491,21 +456,14 @@
 				2BD90E151974D50300633FBE /* location@2x.png in Resources */,
 				2B2EB2081975E5F10093303D /* account@2x.png in Resources */,
 				2B2EB1E7197597E40093303D /* btn_unlocked_blue@2x.png in Resources */,
-				2BD90DF81974B9E900633FBE /* icon.png in Resources */,
 				2BE183BA1971A5DA00EE9DD7 /* InfoPlist.strings in Resources */,
 				2B2EB1EE19759D380093303D /* btn_away_gray@2x.png in Resources */,
 				2B2EB1F019759D380093303D /* btn_home_gray@2x.png in Resources */,
 				2B2EB1EF19759D380093303D /* btn_home_blue@2x.png in Resources */,
-				2BD90E071974CEBE00633FBE /* Launch_640_960.png in Resources */,
-				2BD90E081974CEBE00633FBE /* Launch_640_1136.png in Resources */,
 				2BE183C31971A5DA00EE9DD7 /* Main.storyboard in Resources */,
-				2BD90DF91974B9E900633FBE /* icon@2x.png in Resources */,
-				2BD90E021974BADE00633FBE /* icon_58.png in Resources */,
 				2B2EB1ED19759D380093303D /* btn_away_blue@2x.png in Resources */,
-				2BD90DFC1974B9E900633FBE /* Default~iphone.png in Resources */,
-				2BD90E041974BADE00633FBE /* icon_120.png in Resources */,
 				2B2EB1FB1975A5C60093303D /* fire@2x.png in Resources */,
-				2BD90E031974BADE00633FBE /* icon_80.png in Resources */,
+				A754A0A21B4E22C4002D0F4D /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE0A46C8EDC94C2581702C7F /* Check Pods Manifest.lock */ = {
@@ -654,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -686,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -694,10 +652,9 @@
 		};
 		2BE183DF1971A5DA00EE9DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 720296DB9EC24455A4DB3064 /* Pods.xcconfig */;
+			baseConfigurationReference = 6522AD119784415A67C7B919 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpliSafe/SimpliSafe-Prefix.pch";
 				INFOPLIST_FILE = "SimpliSafe/SimpliSafe-Info.plist";
@@ -708,10 +665,9 @@
 		};
 		2BE183E01971A5DA00EE9DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 720296DB9EC24455A4DB3064 /* Pods.xcconfig */;
+			baseConfigurationReference = BCEBE62F0AA4AC574C90D5AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpliSafe/SimpliSafe-Prefix.pch";
 				INFOPLIST_FILE = "SimpliSafe/SimpliSafe-Info.plist";
