@@ -60,6 +60,7 @@
 		2BE184071972F5B700EE9DD7 /* EventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE184061972F5B700EE9DD7 /* EventsListViewController.m */; };
 		2BE1840D1972F88000EE9DD7 /* SSUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1840C1972F88000EE9DD7 /* SSUserManager.m */; };
 		2BE184171974382000EE9DD7 /* LocationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE184161974382000EE9DD7 /* LocationsListViewController.m */; };
+		2BFAAAC81984188C0021DDB9 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BFAAAC71984188C0021DDB9 /* todo.txt */; };
 		E9F25F6B2A32443199ACFE26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C717EB36F4E52A2B6940E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +147,7 @@
 		2BE1840C1972F88000EE9DD7 /* SSUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUserManager.m; sourceTree = "<group>"; };
 		2BE184151974382000EE9DD7 /* LocationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsListViewController.h; sourceTree = "<group>"; };
 		2BE184161974382000EE9DD7 /* LocationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsListViewController.m; sourceTree = "<group>"; };
+		2BFAAAC71984188C0021DDB9 /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
 		720296DB9EC24455A4DB3064 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C76C717EB36F4E52A2B6940E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -257,6 +259,7 @@
 		2BE183A31971A5DA00EE9DD7 = {
 			isa = PBXGroup;
 			children = (
+				2BFAAAC71984188C0021DDB9 /* todo.txt */,
 				2BE183B51971A5DA00EE9DD7 /* SimpliSafe */,
 				2BE183D41971A5DA00EE9DD7 /* SimpliSafeTests */,
 				2BE183AE1971A5DA00EE9DD7 /* Frameworks */,
@@ -453,7 +456,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BE183A71971A5DA00EE9DD7 /* Build configuration list for PBXProject "SimpliSafe" */;
+			buildConfigurationList = 2BE183A71971A5DA00EE9DD7 /* Build configuration list for PBXProject "EasySafe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -481,6 +484,7 @@
 				2B2EB1FF1975D66D0093303D /* calendar@2x.png in Resources */,
 				2B2EB1E4197592BE0093303D /* logout@2x.png in Resources */,
 				2BD90DFA1974B9E900633FBE /* Default-568h@2x~iphone.png in Resources */,
+				2BFAAAC81984188C0021DDB9 /* todo.txt in Resources */,
 				2BD90DFB1974B9E900633FBE /* Default@2x~iphone.png in Resources */,
 				2BE183C81971A5DA00EE9DD7 /* Images.xcassets in Resources */,
 				2B2EB1FD1975A5C60093303D /* water@2x.png in Resources */,
@@ -763,7 +767,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BE183A71971A5DA00EE9DD7 /* Build configuration list for PBXProject "SimpliSafe" */ = {
+		2BE183A71971A5DA00EE9DD7 /* Build configuration list for PBXProject "EasySafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BE183DC1971A5DA00EE9DD7 /* Debug */,

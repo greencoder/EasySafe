@@ -1,0 +1,7 @@
+Replace device UUID in the [SSUserManager loginWithUsername: password: completion:] method
+
+Add logout functionality to call the API
+
+Add PIN code protection
+
+Save last location choice
