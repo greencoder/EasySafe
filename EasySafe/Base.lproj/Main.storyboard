@@ -685,8 +685,8 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="1-888-957-4675" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Cst-mz-biF">
-                                                    <rect key="frame" x="157" y="8" width="153" height="37"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="1-888-957-4675" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Cst-mz-biF">
+                                                    <rect key="frame" x="192" y="8" width="122" height="34"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -694,6 +694,10 @@
                                                     <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="Cst-mz-biF" secondAttribute="centerY" id="BOc-jF-3Hf"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Cst-mz-biF" secondAttribute="trailing" constant="-2" id="d9n-de-dBr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="OaY-52-cH7" detailTextLabel="VJp-S1-VQJ" rowHeight="50" style="IBUITableViewCellStyleValue1" id="TeM-QO-KYV">
@@ -731,13 +735,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C.O.P.S. Monitoring" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhR-Tv-kOR">
-                                                    <rect key="frame" x="15" y="14" width="135" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C.O.P.S. Monitoring" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhR-Tv-kOR">
+                                                    <rect key="frame" x="15" y="16" width="135" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="1-800-633-2677" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="VMG-qT-LJp">
-                                                    <rect key="frame" x="157" y="8" width="153" height="33"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="1-800-633-2677" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="VMG-qT-LJp">
+                                                    <rect key="frame" x="192" y="8" width="122" height="34"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -745,6 +749,12 @@
                                                     <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="VMG-qT-LJp" secondAttribute="trailing" constant="-2" id="1Q9-vu-bN6"/>
+                                                <constraint firstItem="bhR-Tv-kOR" firstAttribute="leading" secondItem="2of-Kx-s0c" secondAttribute="leadingMargin" constant="7" id="4QV-Dx-1a2"/>
+                                                <constraint firstAttribute="centerY" secondItem="bhR-Tv-kOR" secondAttribute="centerY" id="Gsq-WD-uzz"/>
+                                                <constraint firstAttribute="centerY" secondItem="VMG-qT-LJp" secondAttribute="centerY" id="p4E-nc-Brb"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="t8p-ou-2ID" detailTextLabel="nsf-XP-FAt" rowHeight="50" style="IBUITableViewCellStyleValue1" id="6tr-vt-u9V">
